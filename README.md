@@ -1,12 +1,13 @@
 <p align="center">
-  <a href="https://jquery.com/">
-    <img src="https://i.postimg.cc/s2Xrm4dp/pngegg.png" alt="Bootstrap logo" width="500" height="300">
+  <a href="https://www.w3schools.com/xml/ajax_intro.asp">
+    <img src="https://i.postimg.cc/5yW5rqHg/unnamed.jpg" alt="Ajax logo" width="500" height="300">
   </a>
 </p>
 
-# JQuery
-Sesión JQuery Diplomado SENA
-Resumen de los pasos ejecutados en la sesión de JQuery realizada.
+# Ajax
+Sesión Ajax Diplomado SENA.
+<br>
+Resumen de los pasos ejecutados en la sesión de Ajax realizada.
 
 <br>
 
