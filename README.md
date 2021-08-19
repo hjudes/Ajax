@@ -21,6 +21,11 @@ Se utilizará la documentación [Ajax](https://www.w3schools.com/xml/ajax_intro.
 
 La guía considerará los resultados obtenidos Visual Studio Code v.1.59.0.
 
-## Descarga JQuery
+## Leer datos de una fuente externa (.txt)
+
+En el siguiente código HTML, se mostará en la web un sencillo botón que luego de pulsarlo, leerá un .txt externo y mostará su contenido en pantalla.
+
+
+
 
 
