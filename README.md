@@ -130,5 +130,6 @@ function llenardatos(){
 
 # Leer datos de una fuente externa (.pdf)
 
-El formato pdf de documentos no es leído de manera nativa por JavaScript para su representación en el navegador. Por tal razón es necesario valerse de recursos adicionales como el PDF.js de Mozilla que nos ayuda para este objeto. 
+Diferentes formatos de archivos pueden ser accedidos dentro del Ajax. Por ejemplo el pdf el cual puede contener una gran cantidad de contenido. Sin embargo, el pdf no es leído de manera nativa por JavaScript para su representación en el navegador. Por tal razón es necesario valerse de recursos adicionales como el PDF.js de Mozilla que nos ayuda para este objeto.
+<br>
 Información al respecto completa puede encontrarse en el siguiente repositorio de GitHub: [PDF.js](https://github.com/mozilla/pdf.js)
