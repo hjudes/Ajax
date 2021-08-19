@@ -23,7 +23,36 @@ La guía considerará los resultados obtenidos Visual Studio Code v.1.59.0.
 
 ## Leer datos de una fuente externa (.txt)
 
-En el siguiente código HTML, se mostará en la web un sencillo botón que luego de pulsarlo, leerá un .txt externo y mostará su contenido en pantalla.
+En el siguiente código HTML, se mostará en la web un sencillo botón que luego de pulsarlo, leerá un .txt externo y mostará su contenido en pantalla. (Para los efectos de este ejemplo lo mostará como un título h5 pero bien puede usarse cualquier otra forma de visualización de contenido.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+    
+</head>
+<body>
+    <button id='boton'>hacer click</button>
+    <script src=index.js></script>
+    <h5></h5>
+</body>
+</html>
+```
+
+A través del siguiente archivo de JavaScript se hará el llamado al archivo con el método correspondiente, teniendo en cuenta la síntaxis apropiada.
+
+```
+document.querySelector('button').addEventListener('click', mostradatos);
+
+function mostradatos(){
+ 
+    const xhttp = new XMLHttpRequest(); 
+    xhttp.open('GET', 'archivo.txt', true); 
+```
 
 
 
